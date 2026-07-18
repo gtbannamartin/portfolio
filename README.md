@@ -2,7 +2,7 @@
 
 A documented record of systems I have designed, built, and shipped across three decades — from industrial optimization models to production agentic AI. Some code lives in this account (private and public); some lives in institutional environments; some predates my use of GitHub entirely. Everything listed here is real, and I am glad to walk through the architecture of any of it.
 
-**Legend:** 🟢 live in production · 🔵 code on this account · 🏛️ code in institutional/client environment · 📼 pre-GitHub era (documentation only)
+**Legend:** 🟢 live in production · 🔵 code on this account · 📐 specification complete, build in progress · 🏛️ code in institutional/client environment · 📼 pre-GitHub era (documentation only)
 
 ---
 
@@ -17,11 +17,11 @@ Live at [djmpinstitute.org/pathwayai](https://djmpinstitute.org/pathwayai). Five
 Production website for a 501(c)(3) at [djmpinstitute.org](https://djmpinstitute.org). GitHub → Cloudflare Pages CI with a versioned staging discipline (working `_Active` files → clean `_Live` files → archive) and cache-purge deployment protocol.
 **Stack:** HTML/CSS/JS, Cloudflare Pages, GitHub.
 
-### 🔵 AccessBridge — Disability-Inclusive Civic Navigation *(in development, 2026)*
+### 📐 AccessBridge — Disability-Inclusive Civic Navigation *(in development, 2026)*
 Sibling TCAF™ instantiation to PathwayAI, aimed at disability services navigation. Architecture specification complete; build in progress.
 
-### 🔵 Grant Intelligence — Funder Scoring & Pipeline Infrastructure (2026)
-Internal scoring methodology (under empirical validation) and pipeline tracking applied across a 10-funder portfolio including AWS, Google.org, and federal programs. Structured document automation and decision-support tooling.
+### 📐 Grant Intelligence — Funder Scoring & Pipeline Infrastructure (2026)
+Internal scoring methodology (under empirical validation) and pipeline tracking applied across a 10-funder portfolio including AWS, Google.org, and federal programs. Structured document automation and decision-support tooling. Operating internally; repository migration pending.
 
 ### 🔵 AI Curriculum Engineering — BroSE 2023–2026
 Four consecutive years as AI/STEM instructor for CSUN's Brotherhood of Scholarship and Excellence residential leadership program. The 2026 build: a 100+ slide programmatically-assembled curriculum (GANs, deepfakes, agentic AI, AI industry economics) with embedded interactive activities, delivered to 27 students, including a live PathwayAI production demo.
@@ -41,7 +41,7 @@ Research Fellow. Deep neural network MRI schemes with a data-integrity framework
 ## Legacy Systems (pre-GitHub era)
 
 ### 📼 Stay Safe App — Civic Safety Routing (2017)
-Led the Rainbow PUSH Saturday Academy student team that built a civic AI tool layering Chicago gun-violence data over Google Maps to generate safer routes home for CPS students. Unveiled at Rainbow PUSH's 46th Annual International Convention; covered by ABC7 Chicago and the Chicago Sun-Times. The direct intellectual precursor to PathwayAI.
+Led the Push Excel Saturday Academy student team — the education arm of Rainbow PUSH Coalition — that built a civic AI tool layering Chicago gun-violence data over Google Maps to generate safer routes home for CPS students. Unveiled at Rainbow PUSH's 46th Annual International Convention; covered by ABC7 Chicago and the Chicago Sun-Times. The direct intellectual precursor to PathwayAI.
 
 ### 📼 Smart-City Surveillance Analytics — Operation Virtual Shield III/IV (2009)
 Project management and coordination on Chicago's $217M citywide integration of 3,000+ cameras into a centralized real-time analytics network (Public Building Commission, via Milhouse Engineering).
