@@ -8,12 +8,12 @@ A documented record of systems I have designed, built, and shipped across three 
 
 ## Current & Active (2024–2026)
 
-### 🟢🔵 PathwayAI — Agentic Workforce Navigation Platform (2025–present)
+### 🟢🔵 PathwayAI — Agentic Workforce Navigation Platform (2026–present)
 Live at [djmpinstitute.org/pathwayai](https://djmpinstitute.org/pathwayai). Five-agent architecture on Google Gemini that continuously monitors ten publicly available federal workforce databases and matches residents to personalized technology-career pathways. Delivered via web, mobile, and SMS.
 **Architecture highlights:** Cloudflare Worker proxy fronting the model API (key isolation, request shaping) · Google Apps Script telemetry bridge logging engagement data to Sheets (GET-based, CORS-constrained, domain-locked) · governed end-to-end by TCAF™.
 **Stack:** Gemini API, Cloudflare Workers/Pages, JavaScript, Apps Script.
 
-### 🟢🔵 DJMP Institute Website & Deployment Pipeline (2024–present)
+### 🟢🔵 DJMP Institute Website & Deployment Pipeline (2024–present, previously djmptechacademy.org)
 Production website for a 501(c)(3) at [djmpinstitute.org](https://djmpinstitute.org). GitHub → Cloudflare Pages CI with a versioned staging discipline (working `_Active` files → clean `_Live` files → archive) and cache-purge deployment protocol.
 **Stack:** HTML/CSS/JS, Cloudflare Pages, GitHub.
 
